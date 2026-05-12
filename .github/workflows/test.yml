@@ -45,7 +45,7 @@ jobs:
 
       # Step 7 - Upload report as artifact (downloadable from GitHub)
       - name: Upload Test Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: cucumber-html-report
@@ -54,7 +54,7 @@ jobs:
 
       # Step 8 - Upload screenshots if any failures
       - name: Upload Failure Screenshots
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: failure-screenshots
