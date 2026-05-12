@@ -10,12 +10,15 @@ import {
   setDefaultTimeout(30 * 1000);
   
   let browser: Browser;
-  
+
+  /** GitHub Actions and most CI runners set CI=true; Linux has no display for headed mode. */
+  const isCI = Boolean(process.env.CI);
+
   // Runs ONCE before all tests — launches browser
   BeforeAll(async () => {
     browser = await chromium.launch({
-      headless: false,   // headless: true = no browser window (for CI)
-      slowMo: 50         // slows actions by 50ms so you can see what's happening
+      headless: isCI,
+      slowMo: isCI ? 0 : 50,
     });
   });
   
