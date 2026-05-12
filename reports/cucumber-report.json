@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 430665299
+              "duration": 452273999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2832771100
+              "duration": 2584664100
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 684262699
+              "duration": 643006700
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 288493199
+              "duration": 281337400
             }
           },
           {
@@ -65,8 +65,9 @@
               "location": "src\\steps\\loginSteps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 2010590900
+              "status": "failed",
+              "duration": 2028423599,
+              "error_message": "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at captureRawStack (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\playwright-core\\lib\\coreBundle.js:3130:17)\n    at callMatcherAsStep (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\playwright\\lib\\matchers\\expect.js:12873:57)\n    at Object.toBeTruthy (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\playwright\\lib\\matchers\\expect.js:12863:23)\n    at World.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\src\\steps\\loginSteps.ts:28:22)"
             }
           },
           {
@@ -74,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 95654000
+              "duration": 277032200
             }
           }
         ],
@@ -106,7 +107,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 324486600
+              "duration": 459636800
             }
           },
           {
@@ -119,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2150059400
+              "duration": 2202265800
             }
           },
           {
@@ -132,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 584219900
+              "duration": 621765500
             }
           },
           {
@@ -145,7 +146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230159799
+              "duration": 255478799
             }
           },
           {
@@ -158,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1295112699
+              "duration": 1522254199
             }
           },
           {
@@ -166,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 71865299
+              "duration": 74333999
             }
           }
         ],
@@ -194,7 +195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 341705099
+              "duration": 301697699
             }
           },
           {
@@ -207,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2288656200
+              "duration": 2123169099
             }
           },
           {
@@ -220,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 606777399
+              "duration": 656424700
             }
           },
           {
@@ -233,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 296803400
+              "duration": 245240399
             }
           },
           {
@@ -246,7 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2041221600
+              "duration": 2079702000
             }
           },
           {
@@ -254,7 +255,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 30595399
+              "duration": 60542699
             }
           }
         ],
@@ -282,7 +283,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 275244599
+              "duration": 522494800
             }
           },
           {
@@ -295,7 +296,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2579600300
+              "duration": 2187685799
             }
           },
           {
@@ -308,7 +309,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 530526999
+              "duration": 698536100
             }
           },
           {
@@ -321,7 +322,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 198385600
+              "duration": 244511800
             }
           },
           {
@@ -334,7 +335,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2064598899
+              "duration": 2049556499
             }
           },
           {
@@ -342,7 +343,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60988700
+              "duration": 55540000
             }
           }
         ],
@@ -386,7 +387,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 281438399
+              "duration": 288145799
             }
           },
           {
@@ -399,7 +400,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2353504499
+              "duration": 2135560599
             }
           },
           {
@@ -412,7 +413,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 564612400
+              "duration": 592742599
             }
           },
           {
@@ -425,7 +426,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 166570999
+              "duration": 197915800
             }
           },
           {
@@ -438,7 +439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 117012800
+              "duration": 116990700
             }
           },
           {
@@ -451,7 +452,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 181750100
+              "duration": 182526400
             }
           },
           {
@@ -464,8 +465,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 30008193199,
-              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "duration": 30014423399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
             }
           },
           {
@@ -525,7 +526,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 215504399
+              "duration": 216764200
             }
           }
         ],
@@ -557,7 +558,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 443474000
+              "duration": 273308300
             }
           },
           {
@@ -570,7 +571,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2750992500
+              "duration": 2519897599
             }
           },
           {
@@ -583,7 +584,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 515229999
+              "duration": 538637899
             }
           },
           {
@@ -596,7 +597,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 247531399
+              "duration": 263451900
             }
           },
           {
@@ -609,7 +610,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 132631999
+              "duration": 132918999
             }
           },
           {
@@ -622,7 +623,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 200788599
+              "duration": 203997300
             }
           },
           {
@@ -635,8 +636,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 30006862900,
-              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "duration": 30012873499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
             }
           },
           {
@@ -696,7 +697,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 253758300
+              "duration": 236600200
             }
           }
         ],
@@ -740,7 +741,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 328483300
+              "duration": 356342499
             }
           },
           {
@@ -753,7 +754,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2773564700
+              "duration": 2043761600
             }
           },
           {
@@ -766,8 +767,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 30003314099,
-              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "duration": 30008524699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
             }
           },
           {
@@ -814,7 +815,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 214815500
+              "duration": 255136200
             }
           }
         ],
@@ -846,7 +847,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 316022600
+              "duration": 355602600
             }
           },
           {
@@ -859,7 +860,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3882651199
+              "duration": 2535828600
             }
           },
           {
@@ -872,7 +873,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140351599
+              "duration": 133048799
             }
           },
           {
@@ -885,7 +886,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29864800
+              "duration": 31335400
             }
           },
           {
@@ -893,7 +894,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29438200
+              "duration": 31889900
             }
           }
         ],
@@ -921,7 +922,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 269350399
+              "duration": 270641600
             }
           },
           {
@@ -934,7 +935,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4209633999
+              "duration": 23033031499
             }
           },
           {
@@ -947,7 +948,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118065899
+              "duration": 143787199
             }
           },
           {
@@ -960,7 +961,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35796899
+              "duration": 21128599
             }
           },
           {
@@ -968,7 +969,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 36948999
+              "duration": 23172299
             }
           }
         ],
@@ -996,7 +997,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 264652100
+              "duration": 462502800
             }
           },
           {
@@ -1009,7 +1010,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2911661299
+              "duration": 5546783499
             }
           },
           {
@@ -1022,7 +1023,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 134722799
+              "duration": 134749199
             }
           },
           {
@@ -1035,7 +1036,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15265899
+              "duration": 18235199
             }
           },
           {
@@ -1043,7 +1044,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 25393500
+              "duration": 19678400
             }
           }
         ],
@@ -1075,7 +1076,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 231735799
+              "duration": 290824000
             }
           },
           {
@@ -1088,7 +1089,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2853280799
+              "duration": 5469384000
             }
           },
           {
@@ -1101,7 +1102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124074800
+              "duration": 125850399
             }
           },
           {
@@ -1114,7 +1115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33775200
+              "duration": 34952300
             }
           },
           {
@@ -1122,7 +1123,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21466000
+              "duration": 25308099
             }
           }
         ],
@@ -1150,7 +1151,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 242301199
+              "duration": 277426000
             }
           },
           {
@@ -1163,8 +1164,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 12863644800,
-              "error_message": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.rct-option-expand-all') to be visible\u001b[22m\n\n    at ElementsPage.waitForElement (D:\\Projects\\playwright-bdd-aiautomation\\src\\pages\\BasePage.ts:75:39)\n    at ElementsPage.goToCheckBox (D:\\Projects\\playwright-bdd-aiautomation\\src\\pages\\ElementsPage.ts:133:16)\n    at async World.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\src\\steps\\elementsSteps.ts:101:3)"
+              "duration": 14514460200,
+              "error_message": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.rct-option-expand-all') to be visible\n\n    at ElementsPage.waitForElement (D:\\Projects\\playwright-bdd-aiautomation\\src\\pages\\BasePage.ts:75:39)\n    at ElementsPage.goToCheckBox (D:\\Projects\\playwright-bdd-aiautomation\\src\\pages\\ElementsPage.ts:133:16)\n    at async World.<anonymous> (D:\\Projects\\playwright-bdd-aiautomation\\src\\steps\\elementsSteps.ts:101:3)"
             }
           },
           {
@@ -1211,7 +1212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 218019999
+              "duration": 216292400
             }
           }
         ],
