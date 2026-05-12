@@ -1,0 +1,1243 @@
+[
+  {
+    "description": "  As a registered user of DemoQA platform\n  I want to login with my credentials\n  So that I can access my profile and books",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-login-functionality;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 536062699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA login page",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2562483400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I enter username \"testuser\" and password \"Password123!\"",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1254907400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the login button",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381992000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected to the profile page",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2028884000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93505300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 10
+          },
+          {
+            "name": "@login-success",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-login-functionality;login-fails-with-invalid-password",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login fails with invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 453953199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA login page",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2592429200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter username \"testuser\" and password \"WrongPassword\"",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 914307200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391950800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see an invalid credentials error message",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1570930099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73684999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@login-failure",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-login-functionality;login-fails-with-empty-username",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login fails with empty username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 401028899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA login page",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2495351099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I enter username \"\" and password \"Qwerty@22\"",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028862300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click the login button",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259459899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see an invalid credentials error message",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2070315400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65148299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@login-failure",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-login-functionality;login-fails-with-empty-password",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Login fails with empty password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 503649499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA login page",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2522912800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I enter username \"testuser\" and password \"\"",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 842199000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I click the login button",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498476900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see an invalid credentials error message",
+            "match": {
+              "location": "src\\steps\\loginSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2084383400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88829499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@login-failure",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-login-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "DemoQA Login Functionality",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "  As a user of an AI platform\n  I want to fill and submit forms\n  So that I can register my details in the system",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-practice-form;successfully-submit-the-practice-form-with-all-details",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Successfully submit the practice form with all details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 687582800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA practice form page",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2766959700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill in first name \"Lokender\" and last name \"Singh\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1051635100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter email \"lokender@ren3test.com\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219898399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select gender \"Male\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170351099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter mobile number \"9876543210\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215110000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I fill current address \"Noida, Uttar Pradesh, India\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30012858899,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I select hobby \"Reading\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I submit the form",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the confirmation modal with title \"Thanks for submitting the form\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the submitted first name should be \"Lokender Singh\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361653500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forms",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 10
+          },
+          {
+            "name": "@form-submit",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-practice-form;submit-form-with-female-gender-selection",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Submit form with female gender selection",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 487782399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the DemoQA practice form page",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2709892300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I fill in first name \"Priya\" and last name \"Sharma\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919536599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I enter email \"priya@ren3test.com\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213213300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I select gender \"Female\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188808199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter mobile number \"9876543211\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230042300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I fill current address \"Delhi, India\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30013745999,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I select hobby \"Music\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I submit the form",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the confirmation modal with title \"Thanks for submitting the form\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the submitted first name should be \"Priya Sharma\"",
+            "match": {
+              "location": "src\\steps\\formsSteps.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344495999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forms",
+            "line": 1
+          },
+          {
+            "name": "@form-submit",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-practice-form",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "DemoQA Practice Form",
+    "tags": [
+      {
+        "name": "@forms",
+        "line": 1
+      }
+    ],
+    "uri": "features\\form.feature"
+  },
+  {
+    "description": "  As a user of an AI platform\n  I want to interact with various UI elements\n  So that I can verify the platform responds correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;fill-and-submit-text-box-form",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Fill and submit text box form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 451682000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the DemoQA text box page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2789245600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I fill the text box with name \"Lokender Singh\" and email \"lokender@ren3test.com\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:12"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30002643200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I submit the text box form",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the output should display name containing \"Lokender Singh\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the output should display email containing \"lokender@ren3test.com\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 306859999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 7
+          },
+          {
+            "name": "@textbox",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;select-yes-radio-button",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Select Yes radio button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433274699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I am on the DemoQA radio button page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2581946900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Yes\" radio button",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266021600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see radio result \"Yes\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337080400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42122800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@radio",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;select-impressive-radio-button",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Select Impressive radio button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 472123899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am on the DemoQA radio button page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2611435299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click the \"Impressive\" radio button",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274290800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see radio result \"Impressive\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329329800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48802900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@radio",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;double-click-action-on-button",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Double click action on button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 364379699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on the DemoQA buttons page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2592408300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I double click the button",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164222800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see the message \"You have done a double click\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45304200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35503700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@buttons",
+            "line": 27
+          },
+          {
+            "name": "@smoke",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;right-click-action-on-button",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Right click action on button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367798599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I am on the DemoQA buttons page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2642308199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I right click the button",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309496799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should see the right click message \"You have done a right click\"",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301910800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64112200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@buttons",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "demoqa-elements-interactions;select-home-checkbox-and-verify-result",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Select home checkbox and verify result",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 421086699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I am on the DemoQA checkbox page",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:99"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 12636687099,
+              "error_message": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.rct-option-expand-all') to be visible\u001b[22m\n\n    at ElementsPage.waitForElement (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\src\\pages\\BasePage.ts:75:39)\n    at ElementsPage.goToCheckBox (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\src\\pages\\ElementsPage.ts:133:16)\n    at async World.<anonymous> (C:\\Users\\shiks\\OneDrive\\Documents\\playwright-bdd-aiautomation\\src\\steps\\elementsSteps.ts:101:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I expand all checkboxes",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:104"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I click the home checkbox",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:109"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I should see checkbox selection result",
+            "match": {
+              "location": "src\\steps\\elementsSteps.ts:114"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 349798100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elements",
+            "line": 1
+          },
+          {
+            "name": "@checkbox",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoqa-elements-interactions",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "DemoQA Elements Interactions",
+    "tags": [
+      {
+        "name": "@elements",
+        "line": 1
+      }
+    ],
+    "uri": "features\\elements.feature"
+  }
+]

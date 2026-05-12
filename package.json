@@ -1,0 +1,10 @@
+{
+  "scripts": {
+  "test": "cucumber-js",
+  "test:login": "cucumber-js --tags @login",
+  "test:forms": "cucumber-js --tags @forms",
+  "test:smoke": "cucumber-js --tags @smoke",
+  "report": "node generateReport.js"
+ }
+
+}
