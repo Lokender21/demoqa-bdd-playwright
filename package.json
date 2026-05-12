@@ -1,10 +1,22 @@
 {
+  "name": "playwright-bdd-aiautomation",
+  "version": "1.0.0",
+  "license": "ISC",
   "scripts": {
-  "test": "cucumber-js",
-  "test:login": "cucumber-js --tags @login",
-  "test:forms": "cucumber-js --tags @forms",
-  "test:smoke": "cucumber-js --tags @smoke",
-  "report": "node generateReport.js"
- }
-
+    "test": "npx cucumber-js",
+    "test:login": "npx cucumber-js --tags @login",
+    "test:forms": "npx cucumber-js --tags @forms",
+    "test:smoke": "npx cucumber-js --tags @smoke",
+    "report": "node generateReport.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.3",
+    "@cucumber/html-formatter": "^23.1.0",
+    "@playwright/test": "^1.60.0",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "playwright": "^1.60.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }
