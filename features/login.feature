@@ -9,7 +9,7 @@ Feature: DemoQA Login Functionality
 
   @smoke @login-success
   Scenario: Successful login with valid credentials
-    When I enter username "testuser" and password "Password123!"
+    When I enter username "testuser" and password "Qwerty@22"
     And I click the login button
     Then I should be redirected to the profile page
 
