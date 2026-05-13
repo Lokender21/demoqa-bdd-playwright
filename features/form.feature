@@ -13,7 +13,6 @@ Feature: DemoQA Practice Form
     And I enter email "lokender@ren3test.com"
     And I select gender "Male"
     And I enter mobile number "9876543210"
-    And I fill current address "Noida, Uttar Pradesh, India"
     And I select hobby "Reading"
     And I submit the form
     Then I should see the confirmation modal with title "Thanks for submitting the form"
@@ -25,7 +24,6 @@ Feature: DemoQA Practice Form
     And I enter email "priya@ren3test.com"
     And I select gender "Female"
     And I enter mobile number "9876543211"
-    And I fill current address "Delhi, India"
     And I select hobby "Music"
     And I submit the form
     Then I should see the confirmation modal with title "Thanks for submitting the form"

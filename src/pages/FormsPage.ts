@@ -66,13 +66,6 @@ export class FormsPage extends BasePage {
     await this.fill(this.selectors.mobileNumber, number);
   }
 
-  async fillCurrentAddress(address: string): Promise<void> {
-    await this.retryAction(async () => {
-      await this.hideBlockingOverlays();
-      await this.fill(this.selectors.currentAddress, address);
-    }, 3, 500);
-  }
-
   async selectHobby(hobby: 'Sports' | 'Reading' | 'Music'): Promise<void> {
     const map = {
       Sports:  this.selectors.hobbySports,

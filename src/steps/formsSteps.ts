@@ -33,10 +33,10 @@ When('I enter mobile number {string}', async function (this: ICustomWorld, numbe
   await formsPage.fillMobileNumber(number);
 });
 
-When('I fill current address {string}', async function (this: ICustomWorld, address: string) {
-  const formsPage = new FormsPage(this.page);
-  await formsPage.fillCurrentAddress(address);
-});
+// When('I fill current address {string}', async function (this: ICustomWorld, address: string) {
+//   const formsPage = new FormsPage(this.page);
+//   await formsPage.fillCurrentAddress(address);
+// });
 
 When('I select hobby {string}', async function (this: ICustomWorld, hobby: string) {
   const formsPage = new FormsPage(this.page);
