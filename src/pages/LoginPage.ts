@@ -73,7 +73,7 @@ export class LoginPage extends BasePage {
 
   // Check if user is on profile page after login
   async isLoggedIn(): Promise<boolean> {
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(4000);
     return this.page.url().includes('profile');
   }
 
